@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="simpleform.css">
+
+
+<body>
+    <form id="form">
+        <div class="container">
+            <!-- <img src="nature.jfif" alt="image not available"> -->
+            <div class="heading">
+                <!-- <h2>Personal Details Form</h2> -->
+                <h2>Student Details Form</h2>
+            </div>
+            <br>
+
+            <div class="name">
+                Name: <input type="text" id="f1" name="Name">
+            </div>
+            <br>
+
+            <div class="roll">
+                Roll_no: <input type="text" id="f2" name="rollno">
+            </div>
+            <br>
+
+            <div class="email">
+                Email: <input type="email" id="f3" name="email">
+            </div>
+            <br>
+
+            <div class="contact">
+                Contact number: <input type="number" id="f4" name="number">
+            </div>
+            <br>
+
+            <div class="address">
+                Address: <br><textarea name="text_address" id="f5" cols="60" rows="5"></textarea>
+            </div>
+            <br>
+
+            <div class="birthdate">
+                Birth Date: <input type="date" name="date" id="f6">
+            </div>
+            <br>
+
+            <div class="gender_class" id="f12">
+                Gender:
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Others">Others
+            </div>
+            <br>
+
+            <div class="education" id="f10">
+            <strong>Education: </strong>
+
+            <div class="course" id="f11">
+                course:
+                <input type="radio" name="course" value="BTech">BTech
+                <input type="radio" name="course" value="MTech">MTech
+            </div>
+            <br>
+
+            <div class="courseid">
+                course id: <input type="text" id="f16" name="courseid">
+            </div>
+            <br>
+
+            <div class="stream">
+                Stream/department: <input type="text" id="f13" name="stream">
+            </div>
+            <br>
+
+            <div class="semester">
+                current semester: <input type="text" id="f14" name="semester">
+            </div>
+            <br>
+
+            <div class="cgpa">
+                current CGPA: <input type="text" id="f15" name="cgpa">
+            </div>
+            <br>
+            </div>
+            <br>
+
+
+            <div class="hobby" id="f7">
+                <strong> Hobbies:</strong>
+                <br><textarea name="hobbies" id="f8" cols="60" rows="4"></textarea>
+            </div>
+            <br>
+
+            <div class="text">
+                About yourself: <br><textarea name="text_yourself" id="f9" cols="60" rows="5"></textarea>
+            </div>
+            <br>
+
+
+            
+            <div class="button_rst" id="rst">
+                <!-- <button class="reset" type="button" value="reset form">reset form</button> -->
+                <input type="reset" class= "reset" value="reset form">
+            </div>
+            <br>
+
+
+            <!-- <div class="submit_button_wrapper" id="submit">
+                <button class="submit" type="submit" value="submit form">submit</button>
+            </div> -->
+            <!-- <div class="button_sbmt" id="sbmt">
+                <button class="button" type="button" value="submit form">submit</button>
+            </div> -->
+            <div class="button_sbmt" id="sbmt">
+                <button class="submit" type="submit" >submit</button>
+            </div>
+            <br>
+
+            <br>
+        </div>
+    </form>
+    <script src="simpleform_client.js"></script>
+
+</body>
+
+</html>
